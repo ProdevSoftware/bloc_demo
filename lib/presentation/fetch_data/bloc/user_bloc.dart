@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
+import 'package:bloc_demo/presentation/fetch_data/repository/user_repository.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import '../model/user_response.dart';
-import '../services/user_repository.dart';
 import 'user_status.dart';
 
 part 'user_event.dart';

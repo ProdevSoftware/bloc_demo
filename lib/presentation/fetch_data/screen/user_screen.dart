@@ -1,6 +1,7 @@
-import 'package:bloc_demo/fetch_data/bloc/user_bloc.dart';
-import 'package:bloc_demo/fetch_data/bloc/user_status.dart';
+
 import 'package:bloc_demo/network/repository/api_client.dart';
+import 'package:bloc_demo/presentation/fetch_data/bloc/user_bloc.dart';
+import 'package:bloc_demo/presentation/fetch_data/bloc/user_status.dart';
 import 'package:bloc_demo/utils/color_constant.dart';
 import 'package:bloc_demo/utils/image_const.dart';
 import 'package:bloc_demo/utils/string_constant.dart';

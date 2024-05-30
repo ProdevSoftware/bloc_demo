@@ -1,7 +1,7 @@
 
+import 'package:bloc_demo/presentation/fetch_data/repository/user_repository.dart';
 import 'package:dio/dio.dart';
 
-import '../../fetch_data/services/user_repository.dart';
 
 class ApiClient {
   late final Dio _dio = Dio(BaseOptions(

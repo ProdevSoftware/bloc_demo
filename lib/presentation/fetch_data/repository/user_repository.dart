@@ -1,5 +1,6 @@
-import 'package:bloc_demo/fetch_data/model/user_response.dart';
-import 'package:bloc_demo/fetch_data/services/user_repository_interface.dart';
+
+import 'package:bloc_demo/presentation/fetch_data/model/user_response.dart';
+import 'package:bloc_demo/presentation/fetch_data/repository/user_repository_interface.dart';
 import 'package:dio/dio.dart';
 
 class UserRepository extends IUserRepository {
